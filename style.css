@@ -1,0 +1,67 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fc;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #0057b8, #6a1b9a);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background: white;
+  color: #0057b8;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #0057b8;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skills-grid div {
+  flex: 1;
+  min-width: 250px;
+}
+
+footer {
+  background: #0057b8;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
